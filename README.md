@@ -26,11 +26,11 @@
 
 ## Descrição
 
-Guia introdutório para o uso de redes neurais convolucionais (CNNs) para classificação de
+Guia introdutório sobre o uso de redes neurais convolucionais (CNNs) para classificação de
 imagens.
 
 O presente material foi dividido em notebooks, cada um apresentando uma arquitetura
-específica para a classificação de imagens.
+específica para a solução de problemas ligados à classificação de imagens.
 
 ## Overview
 

@@ -1,0 +1,23 @@
+{
+  "_template": "cookiepy",
+  "author": "Erik Ingwersen",
+  "command_line_interface": "Click",
+  "copyright_year": "2022",
+  "create_author_file": "y",
+  "development_status": "Development Status :: 3 - Alpha",
+  "email": "erik.ingwersen@br.ey.com",
+  "friendly_name": "Pyimg",
+  "github_user": "ingwersen-erik",
+  "license": "MIT",
+  "noarch_python": "y",
+  "package_name": "pyimg",
+  "project_name": "pyimg",
+  "repo_main_branch": "main",
+  "setup_py_uses_setuptools_scm": "y",
+  "short_description": "Aula sobre as tecnicas de machine learning (ML) e Deep Learning para analise de imagens.",
+  "use_black": "y",
+  "use_flake8": "y",
+  "use_isort": "y",
+  "use_pytest": "y",
+  "version": "0.0.1"
+}

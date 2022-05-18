@@ -1,0 +1,17 @@
+defaults:
+  - override hydra/job_logging: custom
+  - _self_
+
+
+main:
+  logs_folder: ${oc.env:LOGS_DIR}
+  data_folder: ${oc.env:DATA_DIR}
+  mnist_data_folder: ${oc.env:MNIST_DATA_DIR}
+  project_folder: ${oc.env:PROJECT_DIR}
+  package_folder: ${oc.env:SRC_DIR}
+  models_folder: ${oc.env:PROJECT_DIR}/outputs
+
+
+mnist:
+  mnist_data: ${main.mnist_data_folder}/mnist_data.npz
+  mnist_output_folder: ${main.models_folder}/MNIST
